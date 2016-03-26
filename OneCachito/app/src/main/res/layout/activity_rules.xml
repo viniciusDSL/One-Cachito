@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/primary"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#0085ff"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="@string/primerP"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="@string/segundoP"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#0085ff"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="@string/tercerP"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="@string/cuartoP"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#0085ff"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="@string/quintoP"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="@string/sextoP"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="@string/septimoP"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mano" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="@string/octavoP"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/huevo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="@string/novenoP"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#0085ff"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="@string/decimosP"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtHelp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="@string/decimotP"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <!--
+        colorPrimary is used, for instance, for the default ActionBar (but not Toolbar) background. We specify the same color for the toolbar background in toolbar.xml..
+        -->
+        <item name="colorPrimary">@color/primary</item>
+        <!--
+        colorPrimaryDark is used for the status bar (with the battery, clock, etc).
+        -->
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <!--
+        colorAccent is used as the default value for colorControlActivated which is used to tint widgets.
+        -->
+        <item name="colorAccent">@color/accent</item>
+
+    </style>
+
+    <!--<item name="android:actionMenuTextColor">@color/white</item>
+    <item name="android:popupMenuStyle">@style/MyApp.PopupMenu</item>-->
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="DefaultText" parent="@android:style/TextAppearance">
+
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="GuessWordText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="Heading" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">30sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="SubHeading" parent="@android:style/TextAppearance.Medium">
+
+    </style>
+
+    <style name="HelpText">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="HelpText.Heading">
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="HelpText.Caption">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+
+    <style name="Button" parent="@android:style/Widget.Button">
+
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:padding">12dp</item>
+
+    </style>
+
+</resources>

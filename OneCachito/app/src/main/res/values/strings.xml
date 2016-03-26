@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">One Cachito</string>
+    <string name="menu_start_game">Play</string>
+    <string name="menu_online">Online Soon</string>
+    <string name="menu_how_to_play">How to play?</string>
+    <string name="menu_about">vini dsl</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="next_turn_">Next \nturn!</string>
+    <string name="name">Cachito</string>
+    <string name="winner">Wins!</string>
+    <string name="player_one">PLAYER 1</string>
+    <string name="player_two">PLAYER 2</string>
+    <string name="player_three">PLAYER 3</string>
+    <string name="p1">P1 :</string>
+    <string name="p2">P2 :</string>
+    <string name="p3">P3 :</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="player_3">Player 3</string>
+    <string name="menu_multiplayer_choise">Select mode</string>
+    <string name="title_out">Leave Game</string>
+    <string name="message_out">Unsaved data will be lost, are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="text_done">Done</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="online_mode_title">Select an option</string>
+    <string name="dormida">DORMIDA!!</string>
+    <string name="draw">Draw</string>
+    <string name="title_activity_rules">Rules</string>
+
+    <string name="primerP">One Cachito</string>
+    <string name="segundoP">\nGame Rules
+            \n\nBases:
+            \n\nOne Cachito is a bolivian dice game called \"cacho alalay\".
+            \n\nAt each round, 1 to 3 players (single or 2-players teams) roll dices, to obtain combinations of numbers, that they score on the notebook.
+            \n\nDuring each turn, a player rolls dices to perform an intent. An intent is made of 1 or 2 roll dice trials. The first trial is always performed with 5 dices; if the player obtained a \"de mano\" result (see below), he may score inmediatly.
+            \n\nIf he does not obtained a \"de mano\" result, or if he chooses not to score, he should put back 1 to 5 dices into the tumbler, and roll dices a second trial. In case of a second trial, the player should turn over at least 1 dice, and optionaly a second dice, and then score.
+            \n\nNote: if a player chooses to put back the 5 dices into the tumbler, the result obtained in the second trial could also be considered \"de mano\".
+            \n\nEach player can consult the scoring notebook on any time to make decisions about next trials, simply pushing his/her name on rigth bottom corner.</string>
+    <string name="tercerP">How this game ends:</string>
+    <string name="cuartoP">\n\n1. No player have a chance to continue scoring : all cases in the notebook are filled. The winner is the player that score the higher number, summing all points.
+            \n\n2. A player scores \"dormida\": if during a trial, all dices show the same number, this player wins the game.
+            \n\n3. A player scores \"panza de oro\": if a player scores all 3 in line (straight, full, poker) with \"de mano\" results, and had at least scored one five-of-a-kind (yahtzee), he wins the game.
+            \n\n4. A player that scores a four-of-a-kind or five-of-a-kind in all \"alay\" cases (one, two, three, four, five, six), and scores at leat a five-of-a-kind, he wins the game."
+                </string>
+    <string name="quintoP">\nNotebook</string>
+    <string name="sextoP">\n\nEach player has a notebook to score the results:</string>
+    <string name="septimoP">\nDe mano: a result is considered \"de mano\" if it\'s the direct result of rolling the 5 dices, without any turn over. You may score \"de mano\" the following results:
+            \n\n\"de mano straight\" , \"de mano full\" , \"de mano poker\"  and the \"dormida\".
+                </string>
+    <string name="octavoP">\nDe huevo: a result is considered \"de huevo\" if it requires a turn over of 1 or 2 dices for scoring. You may score \"de huevo\" the following results:
+            \n\n\"de huevo straight\" ,\"de huevo full\" , \"de huevo poker\"  and \"de huevo five-of-a-kind\".</string>
+    <string name="novenoP"> \n\nErasing: when you erase a case, with a cross, it means that you scored 0 points.</string>
+    <string name="decimosP">\nScoring results</string>
+    <string name="decimotP">\n\nEach case can be scored only once. When a player or team has no option to score any result (including posible turning over dices), he/it has to choose which case to erase with a cross (which means 0 points).\n\n</string>
+    <string name="anotar">score previous</string>
+    <string name="pasar">pass</string>
+    <string name="roll">Roll</string>
+    <string name="first_turn">First \n turn</string>
+    <string name="done">Done</string>
+</resources>
